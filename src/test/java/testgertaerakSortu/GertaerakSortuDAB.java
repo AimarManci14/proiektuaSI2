@@ -22,7 +22,7 @@ import exceptions.QuestionAlreadyExist;
 public class GertaerakSortuDAB {
 
 	// sut:system under test
-	static DataAccess sut = new DataAccess();
+	/*static DataAccess sut = new DataAccess();
 	
 	@Test
 	// sut.gertaerakSortu: The event does not exist and it is introduced.
@@ -144,7 +144,7 @@ public class GertaerakSortuDAB {
 			e.printStackTrace();
 			fail();
 		}
-	}*/
+	}
 
 	@Test
 	// sut.gertaerakSortu: The sport is not in the BD.
@@ -291,5 +291,5 @@ public class GertaerakSortuDAB {
 			fail();
 		}
 	}
-
+	*/
 }

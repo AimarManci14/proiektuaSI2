@@ -1,0 +1,106 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-19 10:43:57 #1 store] 
+Database 'C:\Users\Aimar\git\proiektuaSI2\src\main\resources\bets.temp' has been recovered (tr. 244-282)
+
+[2022-10-19 10:43:57 #2 store] 
+Database 'C:\Users\Aimar\git\proiektuaSI2\src\main\resources\bets.temp' is opened by 8668@AMO-Port
+
+[2022-10-19 10:43:58 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-19 10:43:58 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-19 10:43:58 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-19 10:43:58 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-19 10:43:58 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-19 10:43:58 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-19 10:43:58 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-19 10:43:58 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-19 10:43:58 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-19 10:43:58 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-19 10:43:58 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-19 10:43:58 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-19 10:43:58 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-19 10:43:58 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-19 10:43:58 #17 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-19 11:03:21 #1 store] 
+Database 'C:\Users\Aimar\git\proiektuaSI2\src\main\resources\bets.temp' has been recovered (tr. 283-295)
+
+[2022-10-19 11:03:21 #2 store] 
+Database 'C:\Users\Aimar\git\proiektuaSI2\src\main\resources\bets.temp' is opened by 1392@AMO-Port
+
+[2022-10-19 11:03:21 #3 type] 
+Type domain.Team is not enhanced.
+
+[2022-10-19 11:03:22 #4 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-19 11:03:22 #5 type] 
+Type domain.User is not enhanced.
+
+[2022-10-19 11:03:22 #6 type] 
+Type domain.Registered is not enhanced.
+
+[2022-10-19 11:03:22 #7 type] 
+Type domain.Sport is not enhanced.
+
+[2022-10-19 11:03:22 #8 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-19 11:03:22 #9 type] 
+Type domain.Elkarrizketa is not enhanced.
+
+[2022-10-19 11:03:22 #10 type] 
+Type domain.Message is not enhanced.
+
+[2022-10-19 11:03:22 #11 type] 
+Type domain.KirolEstatistikak is not enhanced.
+
+[2022-10-19 11:03:22 #12 type] 
+Type domain.Jarraitzailea is not enhanced.
+
+[2022-10-19 11:03:22 #13 type] 
+Type domain.ApustuAnitza is not enhanced.
+
+[2022-10-19 11:03:22 #14 type] 
+Type domain.Transaction is not enhanced.
+
+[2022-10-19 11:03:22 #15 type] 
+Type domain.Quote is not enhanced.
+
+[2022-10-19 11:03:22 #16 type] 
+Type domain.Apustua is not enhanced.
+
+[2022-10-19 11:03:22 #17 type] 
+Type domain.Admin is not enhanced.
+

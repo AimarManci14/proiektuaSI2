@@ -26,7 +26,7 @@ import exceptions.EventFinished;
 
 @RunWith(MockitoJUnitRunner.class)
 public class GertaerakSortuMockINTTest {
-	
+	/*
 	DataAccess da = Mockito.mock(DataAccess.class);
 	
 	@Mock
@@ -304,5 +304,5 @@ public class GertaerakSortuMockINTTest {
 			fail();
 		}
 	}
-
+*/
 }
