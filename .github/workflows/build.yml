@@ -32,7 +32,7 @@ analysis
 										restore-keys:	${{	runner.os	}}-m2
 						- name:	Build	and	analyze
 								env:
-										GITHUB_TOKEN:	${{	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	}}		#	Needed	to	get	PR	
+										GITHUB_TOKEN:	${{	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	}}		#	Needed	to	get	PR	
 information,	if	any
 										SONAR_TOKEN:	${{	c382adc13a01499337cdf48fcc80ff52658cf885	}}
 								run:	mvn -B clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
