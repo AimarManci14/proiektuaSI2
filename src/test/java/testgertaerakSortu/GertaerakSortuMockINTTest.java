@@ -26,7 +26,7 @@ import exceptions.EventFinished;
 
 @RunWith(MockitoJUnitRunner.class)
 public class GertaerakSortuMockINTTest {
-	/*
+
 	DataAccess da = Mockito.mock(DataAccess.class);
 	
 	@Mock
@@ -287,7 +287,7 @@ public class GertaerakSortuMockINTTest {
 			Date data = null;
 			
 			try {
-				data = sdf.parse("19/10/2022");
+				data = sdf.parse("26/10/2022");
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -304,5 +304,5 @@ public class GertaerakSortuMockINTTest {
 			fail();
 		}
 	}
-*/
+
 }

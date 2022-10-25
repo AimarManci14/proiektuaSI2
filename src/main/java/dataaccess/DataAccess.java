@@ -881,34 +881,39 @@ public void open(boolean initializeMode){
 		db.getTransaction().commit();
 	}
 	
-	public boolean gertaerakSortu(String description,Date eventDate, String sport) {
+	public boolean gertaerakSortu(String description, Date eventDate, String sport) {
 		boolean b = true;
 		db.getTransaction().begin();
 		b = gertaerakSortuLag1(description, eventDate, sport, b);
 		db.getTransaction().commit();
 		return b;
 	}
-
-	private boolean gertaerakSortuLag1(String description, Date eventDate, String sport, boolean b) {
-		Sport spo =db.find(Sport.class, sport);
-		if(spo!=null) {
-			TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
-			Equery.setParameter(1, eventDate);
-			for(Event ev: Equery.getResultList()) {
-				if(ev.getDescription().equals(description)) {
-					b = false;
-				}
+	
+	public boolean gertaeraBadago(String description, Date eventDate) {
+		TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
+		Equery.setParameter(1, eventDate);
+		for(Event ev: Equery.getResultList()) {
+			if(ev.getDescription().equals(description)) {
+				return false;
 			}
+		}
+		return true;
+	}
+	
+	public boolean gertaerakSortuLag1(String description, Date eventDate, String sport, boolean b) {
+		Sport spo = db.find(Sport.class, sport);
+		if(spo!=null) {
+			b = gertaeraBadago(description, eventDate);
 			if(b) {
 				gertaerakSortuLag2(description, eventDate, spo);
 			}
 		}else {
-			b=false;
+			b = false;
 		}
 		return b;
 	}
-
-	private void gertaerakSortuLag2(String description, Date eventDate, Sport spo) {
+	
+	public void gertaerakSortuLag2(String description, Date eventDate, Sport spo) {
 		String[] taldeak = description.split("-");
 		Team lokala = new Team(taldeak[0]);
 		Team kanpokoa = new Team(taldeak[1]);
