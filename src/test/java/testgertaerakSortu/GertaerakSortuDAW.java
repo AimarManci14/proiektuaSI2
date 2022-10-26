@@ -15,7 +15,7 @@ import dataaccess.DataAccess;
 import domain.Event;
 
 public class GertaerakSortuDAW {
-/*
+
 	// sut:system under test
 	static DataAccess sut = new DataAccess();
 
@@ -161,5 +161,5 @@ public class GertaerakSortuDAW {
 			fail();
 		}
 	}
-*/
+
 }

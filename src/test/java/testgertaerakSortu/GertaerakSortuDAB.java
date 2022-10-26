@@ -22,7 +22,7 @@ import exceptions.QuestionAlreadyExist;
 public class GertaerakSortuDAB {
 
 	// sut:system under test
-	/*static DataAccess sut = new DataAccess();
+	static DataAccess sut = new DataAccess();
 	
 	@Test
 	// sut.gertaerakSortu: The event does not exist and it is introduced.
@@ -145,6 +145,7 @@ public class GertaerakSortuDAB {
 			fail();
 		}
 	}
+	*/
 
 	@Test
 	// sut.gertaerakSortu: The sport is not in the BD.
@@ -206,7 +207,8 @@ public class GertaerakSortuDAB {
 	
 	//MUGA BALIOAK:
 
-	//7.1. KASUA, NON SARTUTAKO DATA GAUR BAINO LEHENAGO DEN, MOCKITO-AN KONPROBATUKO DUGU, EVENTFINISHED EXCEPTION-A FACADE-TIK JAURTITZEN BAITA.
+	//7.1. KASUA, NON SARTUTAKO DATA GAUR BAINO LEHENAGO DEN, MOCKITO-AN KONPROBATUKO DUGU, 
+	//EVENTFINISHED EXCEPTION-A FACADE-TIK JAURTITZEN BAITA.
 
 	@Test
 	// sut.gertaerakSortu: The date is today
@@ -220,7 +222,7 @@ public class GertaerakSortuDAB {
 			Date data = null;
 			
 			try {
-				data = sdf.parse("09/10/2022");
+				data = sdf.parse("26/10/2022");
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -262,7 +264,7 @@ public class GertaerakSortuDAB {
 			Date data = null;
 			
 			try {
-				data = sdf.parse("10/10/2022");
+				data = sdf.parse("27/10/2022");
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -291,5 +293,5 @@ public class GertaerakSortuDAB {
 			fail();
 		}
 	}
-	*/
+
 }

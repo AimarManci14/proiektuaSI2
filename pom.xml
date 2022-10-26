@@ -50,7 +50,7 @@
 		<sonar.organization>proiektuasi2</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>AimarManci14_proiektuaSI2</sonar.projectKey>
-		<sonar.login>c382adc13a01499337cdf48fcc80ff52658cf885</sonar.login>
+		<sonar.login>19d5c8a012c07a3fd0a8b573c9fcc962ca8da45f</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
