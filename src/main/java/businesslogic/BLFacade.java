@@ -29,7 +29,7 @@ import exceptions.EventFinished;
 import exceptions.EventNotFinished;
 import exceptions.QuestionAlreadyExist;
 import exceptions.QuoteAlreadyExist;
-
+  
 /**
  * Interface that specifies the business logic.
  */
