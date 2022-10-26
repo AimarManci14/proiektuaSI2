@@ -59,7 +59,7 @@ public class DataAccess  {
 
 		open(initializeMode);
 		
-	}
+	} 
 
 	public DataAccess()  {	
 		 this(false);
